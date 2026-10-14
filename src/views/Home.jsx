@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     const obtenerPizzas = async () => {
       try {
-        const respuesta = await fetch("http://localhost:5000/api/pizzas");
+        const respuesta = await fetch("https://hito-4-pizzeria-api.onrender.com/api/pizzas");
 
         if (!respuesta.ok) {
           throw new Error("Error al cargar las pizzas");

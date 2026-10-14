@@ -1,52 +1,52 @@
-# Hito 3 - Pizzería Mamma Mia 🍕
 
-Proyecto desarrollado como parte del módulo de React del Bootcamp Full Stack JavaScript de Desafío Latam.
+# Hito 4 - Pizzería Mamma Mía 🍕
+
+Proyecto desarrollado para el módulo React de Desafío Latam.
 
 ## Descripción
 
-En este hito se trabaja la renderización dinámica de componentes utilizando arreglos, props y métodos de JavaScript.
-
-Además, se implementa un carrito de compras utilizando estado en React.
-
-## Aprendizajes aplicados
-
-- Renderización dinámica con `.map()`
-- Uso de la propiedad `key`
-- Paso de información mediante props
-- Renderización de listas de ingredientes
-- Manejo de arreglos con `useState`
-- Aumento y disminución de cantidades
-- Eliminación de productos del carrito
-- Cálculo dinámico del total con `.reduce()`
-
-## Componentes principales
-
-- Navbar
-- Home
-- CardPizza
-- Cart
-- Login
-- Register
-- Footer
+Aplicación web desarrollada con React y Vite que consume una API de pizzas mediante fetch y el hook useEffect.
 
 ## Funcionalidades
 
-- Generación automática de tarjetas de pizzas desde `pizzas.js`
-- Renderizado dinámico de ingredientes
-- Carrito de compras
-- Botones para aumentar y disminuir productos
-- Eliminación de pizzas cuando su cantidad llega a cero
-- Cálculo automático del total
+- Consumo de API en Home.jsx para mostrar las pizzas.
+- Consumo de API en Pizza.jsx para mostrar una pizza individual.
+- Visualización de nombres, precios, ingredientes, imágenes y descripción.
+- Diseño adaptable a distintos tamaños de pantalla.
 
-## Tecnologías utilizadas
+## Tecnologías
 
 - React
 - JavaScript
-- CSS
 - Vite
+- CSS
+- Fetch API
+
+## Instalación
+
+Instalar dependencias:
+
+npm install
+
+Ejecutar el frontend:
+
+npm run dev
+
+Para obtener la información de las pizzas es necesario ejecutar el backend proporcionado por Desafío Latam.
+
+Dentro de la carpeta del backend:
+
+npm install
+npm start
+
+El backend funciona en http://localhost:5000.
 
 ## Demo
 
-Puedes ver el proyecto desplegado en GitHub Pages aquí:
+Pendiente de publicación en GitHub Pages.
 
-https://constanzacousins-wq.github.io/hito-3-pizzeria-mamma-mia/
+Nota: el consumo de datos requiere que el backend esté disponible. La API configurada actualmente funciona en localhost.
+
+## Autora
+
+Constanza Cousins
